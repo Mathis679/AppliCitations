@@ -1,6 +1,8 @@
 ﻿body{
 background-color : black; 
+background-image: url(bacground.png);
 font-family : century gothic;
+font-size: x-large;
 color : white;
 }
 h1{
@@ -9,10 +11,16 @@ text-align: center;
 
 }
 
+
 p{
 text-align: center;
-
+font-size: medium;
 }
+.boutton{
+    text-align: center;
+    font-size: medium;
+}
+
 button{
 
 
@@ -22,18 +30,16 @@ border:none;
 	background:white;
 	font:bold 13px Arial;
 	color:black;
-	width:10%;
-	
+	width:auto;
+       min-width: 10%;
+       
+        font-size: large;
 	margin-right: auto;
 margin-left: auto;
 margin-bottom: 1%;
+font-size: medium;
+    
 }
-
-
-
-
-
-
 
 
 
@@ -51,7 +57,7 @@ article {
 	padding :15px ;
 	margin : 15px;
 	color :white; 
-	
+	font-size: medium;
 }
 
 
