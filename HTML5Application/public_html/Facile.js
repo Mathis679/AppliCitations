@@ -1,13 +1,12 @@
 
 
-
 document.getElementById("image").style.visibility="hidden";
 
 
 
 var i = Math.floor((Math.random() * tab.length) + 1)-1; 
 
-var butalea =Math.floor((Math.random() * 4) +1 )- 1; 
+var butalea =Math.floor((Math.random() * 2) +1 )- 1; 
 console.log(butalea);
 
 document.getElementById("citation").innerHTML=tab[i].citation;
@@ -27,7 +26,7 @@ for(var ind=0;ind<tabauteur.length; ind++){
 
 
 
-for(var j=0 ; j<4;j++){
+for(var j=0 ; j<2;j++){
 	if(document.getElementById("perso"+j).className == "juste"){
 		
 	}else{
@@ -45,7 +44,6 @@ for(var j=0 ; j<4;j++){
 	
 }
 
-
 function verif(perso){
 	if(document.getElementById(perso).className == "juste"){
 		for(var i=0;i<tabauteur.length;i++){
@@ -56,7 +54,7 @@ function verif(perso){
 			}
 		}
 	}else{
-		for(var j=0 ; j<4;j++){
+		for(var j=0 ; j<2;j++){
 			if(document.getElementById("perso"+j).className == "juste"){
 		
 				for(var i=0;i<tabauteur.length;i++){

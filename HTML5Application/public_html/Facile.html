@@ -14,15 +14,22 @@
 
 
 <body>
-	<h1>Jeu des citations</h1>
 	
-	<section>
+	<h1 onclick="self.location.href='Home.html'">Jeu des citations</h1>
+	<div id="image">
+		<img src="" id="SRC"/>
+		<a href="Facile.html">Continue</a>
+	</div>
+	
+	
+	<section id="principal">
+		
 		<div>
 			<p id="citation">"BLABLABLABLABLABLABBLA"</p>
 		</div>
             <div class="boutton">
-                 <button id="perso0" class="droite">Poutine</button>
-                <button id="perso1" class="gauche">Trump</button>
+                 <button id="perso0" class="pastrouve" onclick="verif('perso0');">Poutine</button>
+                <button id="perso1" class="pastrouve" onclick="verif('perso1');">Trump</button>
             </div>
           
 
@@ -30,9 +37,8 @@
 
 	</section>
 	
-
-	<script type="text/javascript" src="javascript.js"></script>
-	<script type="text/javascript" src="jQuery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
+	<script type="text/javascript" src="Cit.js"></script>
+	<script type="text/javascript" src="Facile.js"></script>
+	
 </body>
   
