@@ -46,6 +46,7 @@ for(var j=0 ; j<2;j++){
 
 function verif(perso){
 	if(document.getElementById(perso).className == "juste"){
+		document.getElementById("audioY").play();
 		for(var i=0;i<tabauteur.length;i++){
 			if(document.getElementById(perso).innerHTML == tabauteur[i].auteur){
 				document.getElementById("SRC").src = tabauteur[i].imgbien;
@@ -54,6 +55,7 @@ function verif(perso){
 			}
 		}
 	}else{
+		document.getElementById("audioN").play();
 		for(var j=0 ; j<2;j++){
 			if(document.getElementById("perso"+j).className == "juste"){
 		
